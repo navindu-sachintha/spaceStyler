@@ -1,54 +1,12 @@
-# React + TypeScript + Vite
+# spaceStyler
+SpaceStyler is a powerful 2D-to-3D furniture visualization tool designed for interior designers to help customers plan and preview furniture in their rooms before making a purchase. This interactive application enables designers to arrange furniture based on room size, shape, and color scheme, ensuring the perfect fit for any space.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Key Features:
 
-Currently, two official plugins are available:
+✅ Secure designer login & authentication <br>
+✅ Intuitive 2D room planning with drag-and-drop functionality<br>
+✅ Real-time 3D visualization of furniture layouts<br>
+✅ Customizable furniture sizes, colors, and styles<br>
+✅ Seamless user experience for in-store design consultations<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+💡 Transform the way furniture shopping works with immersive design previews!
