@@ -1,11 +1,13 @@
 import './App.css'
 import { Button } from './components/ui/button'
+import { signInWithGoogle } from './lib/utils'
 
 function App() {
 
   return (
     <>
-      <Button variant='outline'>Click me</Button>
+      <Button onClick={signInWithGoogle} variant='outline'>Sign In with Google</Button>
+
     </>
   )
 }
